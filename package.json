@@ -1,6 +1,6 @@
 {
-  "name": "cake_lib",
-  "version": "1.0.0",
+  "name": "cake-lib",
+  "version": "1.0.1",
   "description": "cake系列js库",
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
