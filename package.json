@@ -5,6 +5,22 @@
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
   "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/lovexiaobai222/cake_lib#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovexiaobai222/cake_lib.git"
+  },
+  "keywords": [
+    "lib"
+  ],
+  "author": "xiaobai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lovexiaobai222/cake_lib/issues"
+  },
   "scripts:ts": {
     "clean": "rimraf ./dist",
     "lint": "tslint -c tslint.json src/**.ts",
@@ -29,18 +45,6 @@
     "test": "npm run lint && cross-env NODE_ENV=test nyc mocha",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "release": "npm test && npm run build && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lovexiaobai222/cake_lib.git"
-  },
-  "keywords": [
-    "lib"
-  ],
-  "author": "xiaobai",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lovexiaobai222/cake_lib/issues"
   },
   "devDependencies": {
     "@babel/cli": "7.1.5",
@@ -74,6 +78,5 @@
     "@babel/runtime": "^7.1.2",
     "@jsmini/extend": "0.2.1",
     "@jsmini/type": "0.4.0"
-  },
-  "homepage": "https://github.com/lovexiaobai222/cake_lib#readme"
+  }
 }
