@@ -1,4 +1,4 @@
-## :cake_lib
+## cake_lib
 [English](./README.md) | 简体中文
 
 **此js库基于jslib-base库**
@@ -52,19 +52,19 @@ $ npm install --save jslib-base
 如果你是node环境
 
 ```js
-var base = require('jslib-base');
+var base = require('cake-lib');
 ```
 
 如果你是webpack等环境
 
 ```js
-import base from 'jslib-base';
+import {isEmpty} from 'cake-lib';
 ```
 
 如果你是requirejs环境
 
 ```js
-requirejs(['node_modules/jslib-base/dist/index.aio.js'], function (base) {
+requirejs(['node_modules/cake-lib/dist/index.aio.js'], function (base) {
     // xxx
 })
 ```
@@ -72,7 +72,7 @@ requirejs(['node_modules/jslib-base/dist/index.aio.js'], function (base) {
 如果你是浏览器环境
 
 ```html
-<script src="node_modules/jslib-base/dist/index.aio.js"></script>
+<script src="node_modules/cake-lib/dist/index.aio.js"></script>
 ```
 
 ## :bookmark_tabs: 文档
