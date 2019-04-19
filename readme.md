@@ -1,5 +1,4 @@
 ## cake_lib
-[English](./README.md) | 简体中文
 
 **此js库基于jslib-base库**
 
